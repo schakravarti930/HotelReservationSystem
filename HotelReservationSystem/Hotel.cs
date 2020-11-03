@@ -1,6 +1,7 @@
 using System;
 namespace HotelReservationSystem
 {
+    public enum CustomerType {NORMAL,REWARD}
     public class Hotel
     {
         //Hotel Name
@@ -9,7 +10,7 @@ namespace HotelReservationSystem
         public double WEEKDAY_RATE {get;}
         public double WEEKEND_RATE {get;}
         public double RATING { get;}
-         public Hotel(HotelType hotelType, CustomerType customerType)
+        public Hotel(HotelType hotelType, CustomerType customerType)
         {
             this.type = hotelType;
             try
