@@ -55,6 +55,5 @@ namespace HotelReservationSystem
             }
             return TotalCost;
         }
-
     }
 }
